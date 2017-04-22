@@ -1,0 +1,7 @@
+import glob, os
+
+env = Environment()
+env.Append(CCFLAGS='-std=c++11 -O3 -Wall'.split())
+
+sources = glob.glob('*.cpp')
+env.Program(target='test', source=sources)
