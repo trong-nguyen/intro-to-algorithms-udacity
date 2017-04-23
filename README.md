@@ -1,6 +1,9 @@
 # ALGORITHMS IMPLEMENTED FOLLOWING MICHAEL LITTMAN'S INTRO TO ALGORITHM ON UDACITY
+School: Udacity  
+Class: CS215
+Lecturer: Michael Littman  
 
-Mostly focus on Graph Theory
+Mostly on Graph Theory
 
 <!-- MarkdownTOC -->
 
@@ -161,7 +164,7 @@ Algorithm:
 		- Compute the deviating path (spur_path) cost: `cost(root_path + spur_path)`
 	* Compare the cost of all deviating paths, select the one with the lowest cost, it is the A_k shortest path
 
-Cost: **ϴ(k\*(m + nlogn))** where k is number of edges of the shortest path.
+Cost: **ϴ(l\*(m + nlogn))=ϴ(n(m + nlogn))** where k is number of edges of the shortest path. O(l) = (logn, n)
 
 ## K-shortest path problem with Dijkstra algorithm
 
