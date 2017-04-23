@@ -1,7 +1,7 @@
 # ALGORITHMS IMPLEMENTED FOLLOWING MICHAEL LITTMAN'S INTRO TO ALGORITHM ON UDACITY
 School: Udacity  
 Class: CS215
-Lecturer: Michael Littman  
+Lecturer: Michael Littman - Computer Scientist at Brown University  
 
 Mostly on Graph Theory
 
